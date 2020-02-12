@@ -40,7 +40,7 @@ ig new
 
 ![](../../../images/general/ig-step-by-step-new-project-template.png)
 
-次のステップでは、アプリケーションのテーマを選択します。デフォルトのオプションを選択すると、 Ignite UI for Angular のデフォルト テーマの Ignite UI がプリコンパイルされた CSS ファイル (igniteui-angular.css) がプロジェクトの angular.json に含まれます。カスタムオプションは、`app/styles.scss` の [Theming API](../../themes.md) を使用して、カラーパレットとテーマのコードを生成します。
+次のステップでは、アプリケーションのテーマを選択します。デフォルトのオプションを選択すると、 Ignite UI for Angular のデフォルト テーマの Ignite UI がプリコンパイルされた CSS ファイル (igniteui-angular.css) がプロジェクトの angular.json に含まれます。カスタムオプションは、`app/styles.scss` の [Theming API](../../themes/index.md) を使用して、カラーパレットとテーマのコードを生成します。
 
 ![](../../../images/general/ig-step-by-step-new-project-theme.png)
 
