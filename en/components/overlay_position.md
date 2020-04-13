@@ -90,7 +90,7 @@ const overlayId = overlay.attach(dummyElement, overlaySettings);
 ``` 
 <div class="divider"></div>
 
-<div class="sample-container loading" style="height: 400px">
+<div class="sample-container loading" style="height: 500px">
     <iframe id="overlay-position-sample-2-iframe" frameborder="0" seamless width="100%" height="100%" src="{environment:demosBaseUrl}/interactions/overlay-position-sample-1" onload="onSampleIframeContentLoaded(this);"></iframe>
 </div>
 <div>
@@ -121,7 +121,7 @@ const overlaySettings: OverlaySettings = {
 this._overlayId = this.overlayService.attach(MyDynamicCardComponent, overlaySettings);
 ```
 
-<div class="sample-container loading" style="height: 500px">
+<div class="sample-container loading" style="height: 600px">
     <iframe id="overlay-position-sample-3-iframe" frameborder="0" seamless width="100%" height="100%" src="{environment:demosBaseUrl}/interactions/overlay-position-sample-2" onload="onSampleIframeContentLoaded(this);"></iframe>
 </div>
 <div>
@@ -138,7 +138,7 @@ const myPositionStrategy = new AutoPositionStrategy();
 overlay.show(overlayId, { positionStrategy: myPositionStrategy }); 
 ```
 
-<div class="sample-container loading" style="height: 500px">
+<div class="sample-container loading" style="height: 600px">
     <iframe id="overlay-position-sample-4-iframe" frameborder="0" seamless width="100%" height="100%" src="{environment:demosBaseUrl}/interactions/overlay-position-sample-3" onload="onSampleIframeContentLoaded(this);"></iframe>
 </div>
 <div>
