@@ -1,10 +1,10 @@
 ---
-title: Angular Grid Group By | Column Group | Ignite UI for Angular | infragistics
-_description: Configure angular group by that allows visualizing of data records in Angular Material table, visualize the grouped data in separate and convenient column group.
-_keywords: angular group by, igniteui for angular, infragistics
+title: Angular Grid Group By | Grid Column Group | Ignite UI for Angular | Infragistics
+_description: Configure angular grid group by that allows visualizing of data records in Angular Material table, visualize the Angular grid grouped data in separate and convenient column group.
+_keywords: angular grid group by, angular grid, igniteui for angular, infragistics
 ---
 
-### Grid Group By
+### Angular Grid Group By
 
 A Group by behavior in an Angular Material table or UI grid creates grouped data rows based on the column values. The Group By in [`igxGrid`]({environment:angularApiUrl}/classes/igxgridcomponent.html) allows for visualizing the groups in a hierarchical structure. The grouped data rows can be expanded or collapsed and the order of grouping may be changed through the UI or API.
 
@@ -35,7 +35,7 @@ Grouping expressions implement the [`ISortingExpression`]({environment:angularAp
 
 #### Group By API
 
-Grouping is available through the UI and through a robust API exposed by the grid component. Developers can allow end-users to group the grid data by certain columns, by setting each column's [`groupable`]({environment:angularApiUrl}/classes/igxcolumncomponent.html#groupable) property to `true`.
+Angular Grid Grouping is available through the UI and through a robust API exposed by the Angular grid component. Developers can allow end-users to group the grid data by certain columns, by setting each column's [`groupable`]({environment:angularApiUrl}/classes/igxcolumncomponent.html#groupable) property to `true`.
 
 ```html
 <igx-grid [data]="data">
@@ -109,7 +109,7 @@ As an example, the following template would make the group rows summary more ver
 
 ### Group By with Paging
 
-Group rows participate in the paging process along with data rows. They count towards the page size for each page. Collapsed rows are not included in the paging process. Any expand or collapse operation forces Paging to recalculate the page count and adjust the page index if necessary.
+Group rows participate in the Angular grid paging process along with data rows. They count towards the page size for each page. Collapsed rows are not included in the paging process. Any expand or collapse operation forces Paging to recalculate the page count and adjust the page index if necessary.
 Groups that span multiple pages are split between them. The group row is visible only on the page it starts on and is not repeated on subsequent pages. Summary information for group rows is calculated based on the whole group and is unaffected by Paging.
 
 #### Demo
