@@ -52,7 +52,7 @@ The `igx-prefix` or `igxPrefix` and `igx-suffix` or `igxSuffix` directives can c
 <igx-input-group>
     <igx-prefix>+359</igx-prefix>
     <label igxLabel for="phone">Phone</label>
-    <input igxInput name="phone" type="tel" />
+    <input igxInput id="phone" name="phone" type="tel" />
     <igx-icon igxSuffix>phone</igx-icon>
 </igx-input-group>
 ```
@@ -69,7 +69,7 @@ The [`igx-hint`]({environment:angularApiUrl}/classes/igxhintdirective.html) dire
 <igx-input-group>
     <igx-prefix>+359</igx-prefix>
     <label igxLabel for="phone">Phone</label>
-    <input igxInput name="phone" type="tel" />
+    <input igxInput id="phone" name="phone" type="tel" />
     <igx-suffix>
         <igx-icon>phone</igx-icon>
     </igx-suffix>
